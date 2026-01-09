@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 # adiii.me
 Hello World! Coming soon?
 
