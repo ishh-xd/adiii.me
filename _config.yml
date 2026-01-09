@@ -1,16 +1,14 @@
-# Site settings
 title: adiii.me
-description: Personal website and blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://adiii.me" # the base hostname & protocol for your site
+description: Chillin'
+baseurl: "" 
+url: "https://adiii.me"
 
-# Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Exclude from processing
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -19,3 +17,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+include:
+  - .well-known
