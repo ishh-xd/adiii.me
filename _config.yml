@@ -1,13 +1,27 @@
 title: adiii.me
-description: Chillin'
-baseurl: "" 
+tagline: Hella site for helly me.
+description: Personal website for crap I do.
 url: "https://adiii.me"
+baseurl: ""
+lang: en
+timezone: Asia/Kolkata
+
+permalink: pretty
 
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
+include:
+  - .well-known
 
 exclude:
   - Gemfile
@@ -18,5 +32,11 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-include:
-  - .well-known
+author:
+  name: Ishh
+  url: https://ishh.is-a.dev
+
+social:
+  name: Ishh
+  links:
+    - https://github.com/ishh-xd
